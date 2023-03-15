@@ -25,6 +25,6 @@ let promise5=new Promise((resolve,reject)=>{
 })
 
 let ans=window.promises = [promise1,promise2,promise3,promise4,promise5]
-Promise.any().then((res)=>console.lo(res));
+Promise.any().then((res)=>document.getElementByID("output").text.innerHTML=`${res}`;
 // Do not change the code above this
 // add your promises to the array `promises`
